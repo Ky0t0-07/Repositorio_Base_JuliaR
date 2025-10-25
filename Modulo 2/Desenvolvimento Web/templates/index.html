@@ -3,66 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Van Gogh</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Julia R</title>
 </head>
-<body>
+<body style="background-color: rgb(24, 39, 104); color: rgb(255, 255, 255);">
+    <h1>Minha primeira página HTML no Flask</h1>
+    <h1>--------------------★---------------------</h1>
+    <h1>próximos passos</h1>
+    <ul>
+        <li>Criar mais rotas</li>
+        <li>Criar link entre as páginas</li>
+        <li>Criar conteúdo estático, CSS e Imagens</li>
+    </ul>
+<br>
+<a href="{{ url_for('sac') }}" style="color: aliceblue;">Fale comigo</a>
+<h1></h1>
+<a href="https://wplace.live/" style="color: gold;"> Se estiver no tédio </a>
 
-    <header>
-
-        <h1>Galeria Vincent - van Gogh</h1>
-
-    </header>
-    
-    <main>
-     <img src="{{ url_for('static', filename='barco.jfif') }}">
-     <Br>   
-    
-    Van Gogh (1853-1890) foi um pintor holandês do final do século XIX e um dos maiores expoentes do pós-impressionismo.
-
-        Seus trabalhos foram valorizados depois de sua morte e tiveram grande influência na arte do século seguinte, sobretudo na vertente expressionista.
-
-        Foi um homem intenso, que usava a arte como ferramenta de sobrevivência em meio a uma agitada e instável saúde emocional e psicológica.
-
-        É considerado um verdadeiro gênio da pintura. Teve uma carreira relativamente curta como pintor, cerca de dez anos.
-
-        Entretanto, produziu uma enorme quantidade de telas, pois trabalhava incessantemente, nos deixando um legado impressionante e carregado de paixão.
-        Vincent Willem van Gogh nasceu em Zundert, na Holanda, no dia 30 de março de 1853. Filho do pastor Theodorus van Gogh e de Ana Cornelius Carbentus, Van Gogh era o primeiro filho de seis irmãos.
-
-        Desde pequeno teve uma vida difícil, marcada pela pobreza, miséria e doenças. O seu irmão mais novo, Theo, foi uma figura primordial na vida de Van Gogh, uma vez que o ajudou e esteve ao seu lado durante grande parte da vida.
-
-  
-    <h2>Juventude de Van Gogh</h2>    
-    <img src="{{ url_for('static', filename='van gogh1.jpeg') }}" width="300px" height="300px">
-    
-    
-        Vincent iniciou os estudos de maneira desarmônica, em diversas instituições. Foi um estudante regular e adquiriu o hábito da leitura, que o auxiliou no conhecimento informal durante toda a vida.
-
-        Com 15 anos abandonou os estudos e no ano seguinte passa a trabalhar com um comerciante de artes, em Haia, na Holanda, por indicação de seu tio.
-
-        Poucos anos depois tenta a vida em Londres e, mais tarde, em Paris. Estudou Teologia em Amsterdam e aproximou-se com intensidade dos assuntos religiosos.
-
-        Religiosidade de Van Gogh
-        Com cerca de 20 anos de idade, Van Gogh viaja para Borinage, na Bélgica, a fim de ser missionário religioso. Nessa época, envolve-se com a dura labuta dos trabalhadores nas minas da região.
-
-        Passou a dormir em condições precárias e ajudar os necessitados, buscando justamente a aproximação de sua vida com a deles.
-
-        Van Gogh vivia bem com o que tinha, entretanto, seu comportamento não foi compreendido e a ele foi negada a permissão para pregar a palavra. Abandona então a vida religiosa, frustrado, e passa a dedicar-se à arte.
-           
-        <menu>
-            <p></p>
-            <a href="https://www.vincentvangogh.org/">SITE OFICIAL</a>
-            <p></p>
-            <a href="https://wplace.live/">CASO ESTEJA ENTEDIADO</a>
-            <p></p>
-            <a href="{{ url_for('obras') }}">OBRAS</a>
-        </menu>
-
-    </main>
-   
-
-    <footer>
-       <p>Desenvolvido por <strong> Julia Rodrigues De Oliveira☆ </strong></p> 
-    </footer>
 </body>
 </html>

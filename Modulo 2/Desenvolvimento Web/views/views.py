@@ -1,11 +1,12 @@
-from app import app
+
+from main import app
 from flask import render_template
 
-@app.route('/')
-def index():
+
+@app.route('/')#Criando uma função a mais sem entrar nela
+def home ():
     return render_template('index.html')
 
-
-@app.route('/obras')
-def obras():
-    return render_template('obras.html')
+@app.route('/sac')
+def sac():
+    return render_template('sac.html')
