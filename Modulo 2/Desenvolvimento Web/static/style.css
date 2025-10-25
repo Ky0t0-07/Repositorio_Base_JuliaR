@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: content-box;
+    
+}
+
+header {
+    padding: 2%;
+    background-color: #03258C;
+    color: #BF9004;
+    font-family: "Epunda Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 20;
+    font-style: normal;
+}
+
+main {
+    padding: 7%;
+    font-family: serif;
+    background-color: #0B1226;
+    color: #0378A6;
+
+
+
+}
+
+footer {
+    padding: 2rem;
+    background-color: #0378A6;
+    color: #BF9004;
+    font-family: serif;
+
+
+
+}
+
+
+
+
+h2 {
+    padding: 1%;
+    text-align: center;
+
+}
+
+p {
+    padding: 0.5%;
+
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #03258C;
+  color: #BF9004;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+
+a:hover {
+  background-color: #BF9004; 
+}

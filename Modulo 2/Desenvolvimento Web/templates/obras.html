@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Van Gogh</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <header>
+
+        <h1> Suas obras - van Gogh</h1>
+
+    </header>
+    
+    <main>
+
+        <menu>
+        <p></p>
+        <a href="{{ url_for('index') }}">HOME</a>
+        
+        </menu>
+
+        <table>
+            <tr>
+                <td>Noite estrelada</td>
+                <td>O quarto de Van Gogh</td>
+                <td>A ronda dos Prisioneiros</td>
+            </tr>        
+            <tr>
+                <td><img src="{{ url_for('static', filename='img/noite.jfif') }}" width="400" height="400" ></td>
+                <td><img src="{{ url_for('static', filename='img/cama.jfif') }}" width="400" height="400" ></td>
+                 <td><img src="{{ url_for('static', filename='img/prisao.jfif') }}" width="400" height="400" ></td>
+            </tr>
+             <tr>
+                <td>Os comedores de Batatas</td>
+                <td>Caveira com Cigarro Acesso</td>  
+                <td>A igreja de Auvers</td>             
+            </tr>
+            <tr>   
+                <td><img src="{{ url_for('static', filename='img/janta.jfif') }}" width="400" height="400" ></td>
+                <td><img src="{{ url_for('static', filename='img/sans.jfif') }}" width="400" height="400" ></td>
+                <td><img src="{{ url_for('static', filename='img/igreja.jfif') }}" width="400" height="400" ></td>
+
+            </tr>
+ <tr>
+                <td>Tristeza</td>
+                <td>A sesta</td>
+                <td>Auto-Retrado</td>
+            </tr>        
+            <tr>
+                <td><img src="{{ url_for('static', filename='img/triste.jfif') }}" width="400" height="400" ></td>
+                <td><img src="{{ url_for('static', filename='img/bahia.jfif') }}" width="400" height="400" ></td>
+                 <td><img src="{{ url_for('static', filename='img/van.jfif') }}" width="400" height="400" ></td>
+            </tr>
+             <tr>
+                <td>Os comedores de Batatas</td>
+                <td>Caveira com Cigarro Acesso</td>  
+                <td>A igreja de Auvers</td>             
+            </tr>
+            <tr>   
+                <td><img src="{{ url_for('static', filename='img/janta.jfif') }}" width="400" height="400" ></td>
+                <td><img src="{{ url_for('static', filename='img/sans.jfif') }}" width="400" height="400" ></td>
+                <td><img src="{{ url_for('static', filename='img/igreja.jfif') }}" width="400" height="400" ></td>
+
+            </tr>
+
+
+
+
+
+
+
+        </table>
+
+
+
+
+
+
+    </main>
+   
+
+    <footer>
+    </footer>
+</body>
+</html>
